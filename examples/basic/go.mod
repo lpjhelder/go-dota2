@@ -2,6 +2,8 @@ module example
 
 go 1.21.1
 
+replace github.com/paralin/go-dota2 => github.com/lpjhelder/go-dota2 v0.0.0-20240327153856-de748a2bfb91
+
 require (
 	github.com/gin-gonic/gin v1.9.1
 	github.com/joho/godotenv v1.5.1
