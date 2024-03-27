@@ -8,9 +8,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
-	"github.com/paralin/go-dota2"
-	"github.com/paralin/go-dota2/cso"
-	"github.com/paralin/go-dota2/protocol"
+
+	//"github.com/paralin/go-dota2"
+	//"github.com/paralin/go-dota2/cso"
+	//"github.com/paralin/go-dota2/protocol"
+	"github.com/lpjhelder/go-dota2"
+	"github.com/lpjhelder/go-dota2/cso"
+	"github.com/lpjhelder/go-dota2/protocol"
 	"github.com/paralin/go-steam"
 	"github.com/paralin/go-steam/protocol/steamlang"
 	steamId "github.com/paralin/go-steam/steamid"
