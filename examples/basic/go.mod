@@ -2,7 +2,7 @@ module github.com/lpjhelder/go-dota2
 
 go 1.21.1
 
-replace github.com/paralin/go-dota2 => github.com/lpjhelder/go-dota2 v1.0.0
+replace github.com/paralin/go-dota2 => github.com/lpjhelder/go-dota2 v0.0.0-20240328013959-eaff3023426d
 
 require (
 	github.com/gin-gonic/gin v1.9.1

@@ -45,8 +45,8 @@ github.com/klauspost/cpuid/v2 v2.2.6/go.mod h1:Lcz8mBdAVJIBVzewtcLocK12l3Y+JytZY
 github.com/knz/go-libedit v1.10.1/go.mod h1:MZTVkCWyz0oBc7JOWP3wNAzd002ZbM/5hgShxwh4x8M=
 github.com/leodido/go-urn v1.4.0 h1:WT9HwE9SGECu3lg4d/dIA+jxlljEa1/ffXKmRjqdmIQ=
 github.com/leodido/go-urn v1.4.0/go.mod h1:bvxc+MVxLKB4z00jd1z+Dvzr47oO32F/QSNjSBOlFxI=
-github.com/lpjhelder/go-dota2 v0.0.0-20240327183856-de748a2bfb91 h1:G2/8fmKzDhC+hvwL11R7gMwbSD/kAD3LLxE2MYHMR8s=
-github.com/lpjhelder/go-dota2 v0.0.0-20240327183856-de748a2bfb91/go.mod h1:60woNl6jmHeAA1XOctHAPPcV/HTdvq0jW/Tm1NUGoWU=
+github.com/lpjhelder/go-dota2 v0.0.0-20240328013959-eaff3023426d h1:VKOepdAwxrx0Fkou2bPTDdZVdYHXD2e2lNdhXyGOJXw=
+github.com/lpjhelder/go-dota2 v0.0.0-20240328013959-eaff3023426d/go.mod h1:60woNl6jmHeAA1XOctHAPPcV/HTdvq0jW/Tm1NUGoWU=
 github.com/mattn/go-isatty v0.0.20 h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWEY=
 github.com/mattn/go-isatty v0.0.20/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D7dTCTo3Y=
 github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
