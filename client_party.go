@@ -14,6 +14,7 @@ func (d *Dota2) RespondPartyInvite(partyId uint64, accept bool) {
 	d.write(uint32(bgcm.EGCBaseMsg_k_EMsgGCPartyInviteResponse), &bgcm.CMsgPartyInviteResponse{
 		PartyId: &partyId,
 		Accept:  &accept,
+
 	})
 }
 
@@ -35,5 +36,6 @@ func (d *Dota2) KickFromParty(steamID uint64) {
 func (d *Dota2) SetPartyCoach(coach bool) {
 	d.write(uint32(bgcm.EDOTAGCMsg_k_EMsgGCPartyMemberSetCoach), &bgcm.CMsgDOTAPartyMemberSetCoach{
 		WantsCoach: &coach,
+
 	})
 }

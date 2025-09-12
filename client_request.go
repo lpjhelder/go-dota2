@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/paralin/go-steam/protocol/gamecoordinator"
 	"github.com/golang/protobuf/proto"
+	"github.com/paralin/go-steam/protocol/gamecoordinator"
 
 	gcm "github.com/paralin/go-dota2/protocol"
 )
@@ -22,7 +22,7 @@ func (d *Dota2) MakeRequest(
 	response proto.Message,
 	matchesRequest ...func(proto.Message) bool,
 ) (mrErr error) {
-	d.le.Debugf("making request: %s", gcm.EDOTAGCMsg(reqMsgID).String())
+	d.le.Debugf("making request: %s", gcm.EDOTAGCMsg(reqMsgID).String()) //nolint:gosec
 	cctx, err := d.validateConnectionContext()
 	if err != nil {
 		return err
